@@ -29,6 +29,7 @@ body,
   width: 100vw;
   height: 100vh;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .container {
@@ -43,9 +44,8 @@ body,
 
 header {
   position: absolute;
-  z-index: 99;
   width: 100%;
-  padding: 60px;
+  padding: 30px 60px 30px 60px;
   .header-inner {
     display: flex;
     align-items: center;
@@ -63,20 +63,25 @@ header {
         li {
           list-style: none;
           margin: 0 60px;
+          z-index: 99;
           &.btn {
-            a {
+            p {
               color: #fff;
               font-weight: 600;
               background: #23232a;
               padding: 16px 24px;
               border-radius: 10px;
+             
             }
           }
-          a {
+          p {
             text-transform: capitalize;
             text-decoration: none;
             color: #fff;
           }
+        }
+        li:hover {
+          cursor: pointer;
         }
       }
     }
@@ -119,4 +124,26 @@ header {
 .loading-bar {
   height: 32px;
   background: #f15946;
+}
+
+.scrollArea::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.scrollArea::-webkit-scrollbar
+{
+	width: 12px;
+	background-color: #F5F5F5;
+}
+
+.scrollArea::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
 }

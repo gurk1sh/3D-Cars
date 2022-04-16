@@ -1,26 +1,21 @@
 import React from "react";
 
-export default function Header() {
+export default function Header(props) {
+
+  let direction = false;
+
+  function updateDirection() {
+    direction = !direction;
+  }
+
   return (
     <header>
       <div className='header-inner'>
-        <div className='logo'>CHAIR.</div>
+        <div className='logo'>CARS</div>
         <nav>
           <ul>
-            <li>
-              <a href='/'>discover</a>
-            </li>
-            <li>
-              <a href='/'>products</a>
-            </li>
-            <li>
-              <a href='/'>solutions</a>
-            </li>
-            <li>
-              <a href='/'>reach</a>
-            </li>
-            <li className='btn'>
-              <a href='/'>order</a>
+            <li className='btn' onClick={() => { props.changeDirection(direction); updateDirection();}}>
+              <p>Swap direction</p>
             </li>
           </ul>
         </nav>
