@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/3D-Cars/static/css/main.959e5259.chunk.css",
+    "main.js": "/3D-Cars/static/js/main.9d0d0b59.chunk.js",
+    "main.js.map": "/3D-Cars/static/js/main.9d0d0b59.chunk.js.map",
+    "runtime-main.js": "/3D-Cars/static/js/runtime-main.cadb5142.js",
+    "runtime-main.js.map": "/3D-Cars/static/js/runtime-main.cadb5142.js.map",
+    "static/js/2.0e729811.chunk.js": "/3D-Cars/static/js/2.0e729811.chunk.js",
+    "static/js/2.0e729811.chunk.js.map": "/3D-Cars/static/js/2.0e729811.chunk.js.map",
+    "index.html": "/3D-Cars/index.html",
+    "precache-manifest.236bf0cd408c9581882aba74b863ea33.js": "/3D-Cars/precache-manifest.236bf0cd408c9581882aba74b863ea33.js",
+    "service-worker.js": "/3D-Cars/service-worker.js",
+    "static/css/main.959e5259.chunk.css.map": "/3D-Cars/static/css/main.959e5259.chunk.css.map",
+    "static/js/2.0e729811.chunk.js.LICENSE.txt": "/3D-Cars/static/js/2.0e729811.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cadb5142.js",
+    "static/js/2.0e729811.chunk.js",
+    "static/css/main.959e5259.chunk.css",
+    "static/js/main.9d0d0b59.chunk.js"
+  ]
+}
